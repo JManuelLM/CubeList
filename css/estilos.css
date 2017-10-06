@@ -2,8 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 }
 
 body {
@@ -107,6 +105,15 @@ aside .widget ul li a:hover {
 
 aside .widget p {
 	line-height: 27px;
+}
+
+footer {
+	width: 70%;
+	overflow: hidden;
+	background: #000;
+	color: #fff;
+	padding: 15px 0px;
+	text-align: center;
 }
 
 @media screen and (max-width: 800px) {
